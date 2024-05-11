@@ -20,8 +20,8 @@ To set up your CDK pipeline, follow these steps:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://your-repository-url.git
-cd your-repository-directory
+git clone https://github.com/gagandua078/AWS-Software-Pipeline-CDK.git
+cd AWS-Software-Pipeline-CDK/app
 ```
 
 ### 2. Install Dependencies
@@ -62,10 +62,24 @@ Once deployed, the pipeline will automatically handle the deployment of your app
 
 The pipeline is structured to follow best practices of CI/CD, ensuring that your application is always in a deployable state, your build artifacts are intact, and your deployments are automated.
 
-## Contributing
+## Clean Up
 
-Contributions are welcome! Please read the contributing guide to learn how you can propose bug fixes and improvements.
+To avoid incurring unnecessary charges, remember to delete the resources when they are no longer needed:
+
+```bash
+npx cdk destroy
+```
+
+--
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The code within this project is dual-licensed under the GLINCKER LLC proprietary license and the MIT License. This means it is open for reference and educational purposes, allowing for use, modification, and distribution in accordance with the MIT License's terms, while also respecting the proprietary rights and restrictions under the GLINCKER LLC license.
+
+## MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
